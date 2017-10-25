@@ -6,7 +6,7 @@
             buttons = document.getElementById("buttons"),//包裹小圆点的div
             prev = document.getElementById("prev"),//看上一幅图
             next = document.getElementById("next"),//看下一幅图
-            index = 1, //当前展示第一副图
+            index = 0, //当前展示第一副图
             timer = null, //定时器
             aTimer = null,//缓冲定时器
             letOrRight = true;//当前假定图片从左向右
