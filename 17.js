@@ -1,5 +1,5 @@
 (function () {
-    //页面加载完成时执行
+    //页面加载完成时执行轮播图效果
     window.onload = function () {
         var container = document.getElementById("container"), //总的区域
             list = document.getElementById("list"), //图片总区域
